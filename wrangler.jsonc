@@ -5,6 +5,7 @@
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "ai-gateway",
+	"account_id": "332b4bbab0713575ed08eb6d92a07be7",
 	"main": "src/index.ts",
 	"compatibility_date": "2026-08-02",
 	"observability": {
@@ -19,7 +20,7 @@
 			"binding": "ai_gateway_db",
 			"database_name": "ai-gateway-db",
 			"database_id": "4a111060-e379-4d07-ad88-80a536feac5a",
-			"remote": false
+			"remote": true
 		}
 	]
 	/**
